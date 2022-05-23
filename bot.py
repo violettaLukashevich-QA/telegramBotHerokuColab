@@ -29,9 +29,9 @@ def lalala(message):
 		if message.text == "🔎 Find the 🔝 QA":
 			bot.send_message(message.chat.id, "You've got a new QA match!🔥\nTo check the result, please tap on\n'🧡 Your QA matches'")
 		if message.text == "🧡 Your QA matches":
-			bot.send_message(message.chat.id, "🎉Congratulations, you've found the 🔝 QA tester!\nName: Violetta Lukashevich\nAge: 28\nCountry of residence: Belgium\nAbout: Responsible, detail-oriented, communicative. I like to analyze everything, both in life and in work, so I can find the root cause of any problem, both mental and techical :). Sense of humor and openness are the most important human qualities for me. In my spare time, you can find me studying foreign languages, traveling, watching videos about Selenium automation, or growing cucumbers.\nTo contact Violetta, please tap on '📱 Get in touch with your match'")
+			bot.send_message(message.chat.id, "🎉Congratulations, you've found the 🔝 QA tester!\nName: Violetta Lukashevich\nAge: 28\nCountry of residence: Belgium\nAbout: Responsible, detail-oriented, communicative. I like to analyze everything, both in life and in work, so I can find the root cause of any problem, both mental and techical :). Sense of humor and openness are the most important human qualities for me. In my spare time, you can find me studying foreign languages, traveling, watching videos about Selenium automation, or growing cucumbers.\nTo contact me, please tap on\n'📱 Get in touch with your match'")
 		if message.text == "📱 Get in touch with your match":
-			bot.send_message(message.chat.id, "Email: lukashevich.violetta@gmail.com\nPhone: 0488300167\nWas nice to meet you, {0.first_name}! 🤗 Have a great day and see you later!☀️")
+			bot.send_message(message.chat.id, "Email: lukashevich.violetta@gmail.com\nPhone: 0488300167\nWas nice to meet you! 🤗 Have a great day and see you later!☀️")
 
 
 bot.polling(none_stop=True)
